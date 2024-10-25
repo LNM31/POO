@@ -1,0 +1,21 @@
+class l3{
+    public static void main(String[] args)
+    {
+	
+	System.out.println("Visca Barca!");
+	bar.tipar("Barca",true);
+    }
+}
+class bar{
+    public static void tipar(String sir,boolean b)
+    {
+	if(b)
+	    System.out.println("String: "+sir);
+    }
+    public static void tipar(boolean b,String sir)
+    {
+	if(b)
+	    System.out.println("String: "+sir);
+    }
+}
+
