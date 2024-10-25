@@ -218,7 +218,11 @@ class Student{
 	return res;
     }
 }
-
+/*
+1 SDA 1 5
+2 POO 2 5
+3 OOP 2 5
+*/
 class Main{
 
     public static void main(String[] args)
@@ -241,4 +245,32 @@ class Main{
 	s2.inregistrareNota(c.cauta(2),10);
 	System.out.println(s2);
     }
+	/*
+	Id: 1 Denumire: SDA Credite: 5
+        Id: 2 Denumire: POO Credite: 5
+        Id: 3 Denumire: OOP Credite: 5
+
+        Alin
+        Id: 1 Denumire: SDA Credite: 5 - Nota: 10
+	Media: 10.0
+	Credite: 5
+
+	Alin
+	Id: 1 Denumire: SDA Credite: 5 - Nota: 10
+	Id: 2 Denumire: POO Credite: 5 - Nota: 7
+	Media: 8.5
+	Credite: 10
+
+	Alina
+	Id: 1 Denumire: SDA Credite: 5 - Nota: 7
+	Id: 2 Denumire: POO Credite: 5 - Nota: 8
+	Media: 7.5
+	Credite: 10
+
+	Alina
+	Id: 1 Denumire: SDA Credite: 5 - Nota: 7
+	Id: 2 Denumire: POO Credite: 5 - Nota: 10
+	Media: 8.5
+	Credite: 10
+	*/
 }
