@@ -123,6 +123,6 @@ class Main{
 	}catch(WCCIE e){
 	    System.out.println(e.getMessage());
 	}
-	System.out.println(t1);
+	System.out.println(t1+"\n"+t1.getNumarTeste());
     }
 }
